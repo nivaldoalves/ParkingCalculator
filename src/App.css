@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+
+input::placeholder {
+  color: rgb(33, 150, 243);
+  opacity: 0.4;
+}
+
+.custom-panel {
+  background-color: rgb(6, 82, 144);
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#exitTime,
+#entryTime,
+#hourlyRate,
+#vehiclePlate {
+  font-weight: 500;
+  color: #2196f3;
+  border: 1px solid rgba(27, 99, 158, 0.661);
+}
+
+/* Largura mínima de 250px */
+.min-width-250 {
+  min-width: 250px;
+}
+
+/* Largura máxima de 520px */
+.max-width-520 {
+  max-width: 520px;
+}
